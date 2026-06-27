@@ -72,9 +72,16 @@ function Upload-Directory {
         Upload-File -LocalPath $fullName -RemotePath "$RemoteDir/$relative"
     }
 }
-Write-Host "Uploading vendor directory to backend/vendor ..."
-$vendorDir = Join-Path $base "Sotelo-main\Sotelo-main\backend\vendor"
-Upload-Directory -LocalDir $vendorDir -RemoteDir "backend/vendor" -ExcludePatterns @("*\.git\*")
+Write-Host "Building frontend..."
+Set-Location -Path (Join-Path $base "Sotelo-main\Sotelo-main\frontend")
+& npm run build
+
+Write-Host "Uploading frontend dist to root..."
+Upload-Directory -LocalDir $frontDist -RemoteDir "" -ExcludePatterns @()
+
+Write-Host "Uploading backend app to backend/app..."
+$backendAppDir = Join-Path $base "Sotelo-main\Sotelo-main\backend\app"
+Upload-Directory -LocalDir $backendAppDir -RemoteDir "backend/app" -ExcludePatterns @("*\.git\*")
 
 Write-Host ""
 Write-Host "Upload summary: success=$success failed=$failed"
