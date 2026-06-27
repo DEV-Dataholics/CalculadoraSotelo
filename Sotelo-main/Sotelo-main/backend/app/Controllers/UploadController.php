@@ -70,16 +70,90 @@ class UploadController extends BaseController
                 $results = array_merge($results, $entries);
             }
 
+            $minDate = null;
+            $maxDate = null;
+            $drivers = array_keys($byDriver);
+
+            foreach ($results as $trip) {
+                if (!empty($trip['Rows']) && is_array($trip['Rows'])) {
+                    foreach ($trip['Rows'] as $row) {
+                        $arr = $row['Arranque_Date'] ?? null;
+                        $arrB = $row['Arribo_Date'] ?? null;
+                        
+                        if ($arr) {
+                            $ts = strtotime($arr);
+                            if ($ts !== false) {
+                                if ($minDate === null || $ts < $minDate) $minDate = $ts;
+                                if ($maxDate === null || $ts > $maxDate) $maxDate = $ts;
+                            }
+                        }
+                        if ($arrB) {
+                            $ts = strtotime($arrB);
+                            if ($ts !== false) {
+                                if ($minDate === null || $ts < $minDate) $minDate = $ts;
+                                if ($maxDate === null || $ts > $maxDate) $maxDate = $ts;
+                            }
+                        }
+                    }
+                }
+            }
+
+            $warnings = [];
+            if ($minDate !== null && $maxDate !== null) {
+                $minDateStr = date('Y-m-d', $minDate);
+                $maxDateStr = date('Y-m-d', $maxDate);
+
+                $liqModel = new \App\Models\LiquidacionModel();
+                $overlaps = $liqModel->where('estado !=', 'BORRADOR')
+                    ->where('start_date <=', $maxDateStr)
+                    ->where('end_date >=', $minDateStr)
+                    ->findAll();
+
+                foreach ($overlaps as $overlap) {
+                    $json = $overlap['datos_json'];
+                    $savedTrips = is_string($json) ? json_decode($json, true) : $json;
+                    if (!is_array($savedTrips)) $savedTrips = [];
+                    
+                    $savedDrivers = [];
+                    foreach ($savedTrips as $st) {
+                        if (!empty($st['Driver_Name'])) {
+                            $savedDrivers[$st['Driver_Name']] = true;
+                        }
+                    }
+                    
+                    foreach ($drivers as $d) {
+                        if (isset($savedDrivers[$d])) {
+                            $warnings[] = [
+                                'driver' => $d,
+                                'start_date' => $overlap['start_date'],
+                                'end_date' => $overlap['end_date'],
+                                'estado' => $overlap['estado']
+                            ];
+                        }
+                    }
+                }
+                
+                $uniqueWarnings = [];
+                foreach ($warnings as $w) {
+                    $key = $w['driver'] . '|' . $w['start_date'] . '|' . $w['end_date'];
+                    $uniqueWarnings[$key] = $w;
+                }
+                $warnings = array_values($uniqueWarnings);
+            }
+
             $audit = new AuditLogModel();
             $audit->insert([
                 'action' => 'CSV_UPLOADED',
                 'entity_type' => 'upload',
-                'details' => json_encode(['filename' => $file->getName(), 'rows' => count($rows), 'trips' => count($results)], JSON_UNESCAPED_UNICODE),
+                'details' => json_encode(['filename' => $file->getName(), 'rows' => count($rows), 'trips' => count($results), 'warnings' => count($warnings)], JSON_UNESCAPED_UNICODE),
                 'ip_address' => $this->request->getIPAddress(),
                 'created_at' => date('Y-m-d H:i:s'),
             ]);
 
-            return $this->response->setJSON(['trips' => $results]);
+            return $this->response->setJSON([
+                'trips' => $results,
+                'warnings' => $warnings
+            ]);
         } catch (\Throwable $e) {
             return $this->response->setStatusCode(500)->setJSON(['detail' => $e->getMessage()]);
         }

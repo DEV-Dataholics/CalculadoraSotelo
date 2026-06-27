@@ -67,6 +67,29 @@ export async function fetchRutas(params = {}) {
   return res.json()
 }
 
+export async function saveLiquidacion(payload) {
+  const res = await authFetch('/api/sessions/save', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+  })
+  const data = await res.json()
+  if (!res.ok) throw new Error(data?.detail || 'Error al guardar liquidación')
+  return data
+}
+
+export async function fetchLiquidacionesSummary() {
+  const res = await authFetch('/api/liquidaciones/summary')
+  if (!res.ok) throw new Error('No se pudo cargar el historial')
+  return res.json()
+}
+
+export async function fetchLiquidacionById(id) {
+  const res = await authFetch(`/api/liquidaciones/${id}`)
+  if (!res.ok) throw new Error('No se pudo cargar la liquidación')
+  return res.json()
+}
+
 async function adminRequest(path, options = {}) {
   const res = await authFetch(`/api/admin/${path}`, {
     headers: { 'Content-Type': 'application/json', ...(options.headers || {}) },

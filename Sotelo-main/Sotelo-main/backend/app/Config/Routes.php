@@ -20,6 +20,10 @@ $routes->options('api/v1/(:any)', static function () {
 $routes->group('api', static function (RouteCollection $routes): void {
     $routes->post('upload', 'UploadController::process');
     $routes->post('calculate', 'CalculateController::recalculate');
+    
+    $routes->get('liquidaciones/summary', 'SessionController::summary');
+    $routes->get('liquidaciones/(:num)', 'SessionController::get/$1');
+    $routes->post('sessions/save', 'SessionController::save');
 
     $routes->get('catalogs/rendimientos', 'CatalogController::rendimientos');
     $routes->get('catalogs/rutas', 'CatalogController::rutas');

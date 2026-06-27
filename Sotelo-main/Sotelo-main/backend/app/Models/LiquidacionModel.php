@@ -6,13 +6,13 @@ use CodeIgniter\Model;
 
 class LiquidacionModel extends Model
 {
-    protected $table            = 'liquidaciones_temporales';
+    protected $table            = 'liquidaciones';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['session_token', 'datos_boleta_json', 'status', 'semana_nomina'];
+    protected $allowedFields    = ['estado', 'start_date', 'end_date', 'total_general', 'motivo_rechazo', 'datos_json', 'created_by', 'approved_by'];
 
     protected bool $allowEmptyInserts = false;
     protected bool $updateOnlyChanged = true;

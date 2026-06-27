@@ -54,6 +54,17 @@ export default function SummaryBar({ trips, selectedWeek }) {
             <div className="sum-total-lbl">Neto a Pagar</div>
             <div className="sum-total-val">{fmt(t.total)}</div>
           </div>
+          <button className="export-btn bg-slate-900" style={{ backgroundColor: '#0f172a', marginRight: '8px' }} onClick={async () => {
+            const { saveLiquidacion } = await import('../api')
+            try {
+              await saveLiquidacion({ trips, start_date: selectedWeek.split(' → ')[0], end_date: selectedWeek.split(' → ')[1], total_general: t.total })
+              alert('Liquidación guardada correctamente.')
+            } catch (err) {
+              alert(err.message)
+            }
+          }}>
+            💾 Guardar
+          </button>
           <button className="export-btn" onClick={() => exportToExcel(trips, selectedWeek)}>
             📊 Exportar Excel
           </button>

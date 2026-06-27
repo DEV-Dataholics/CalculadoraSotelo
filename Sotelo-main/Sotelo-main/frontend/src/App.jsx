@@ -6,6 +6,8 @@ import PeriodSelector from './components/PeriodSelector'
 import DashboardKPIs from './components/DashboardKPIs'
 import AdminSection from './components/AdminSection'
 import Sidebar from './components/Sidebar'
+import DashboardCalendar from './components/DashboardCalendar'
+import DuplicateWarningModal from './components/DuplicateWarningModal'
 import { authFetch, fetchRendimientos } from './api'
 import { useAuth } from './auth/AuthContext'
 import LoginPage from './pages/LoginPage'
@@ -26,6 +28,11 @@ function AppContent() {
   const [dieselPrice, setDieselPrice] = useState(24.50)
   const [driverFilter, setDriverFilter] = useState('')
   const [selectedDriver, setSelectedDriver] = useState(null)
+  
+  const [pendingTrips, setPendingTrips] = useState(null)
+  const [duplicateWarnings, setDuplicateWarnings] = useState(null)
+  
+  const [showUpload, setShowUpload] = useState(false)
 
   useEffect(() => {
     fetchRendimientos()
@@ -58,7 +65,13 @@ function AppContent() {
         alert(data.detail || 'Advertencia: El backend devolvió 0 viajes.')
         return
       }
-      setTrips(data.trips)
+      if (data.warnings && data.warnings.length > 0) {
+        setPendingTrips(data.trips)
+        setDuplicateWarnings(data.warnings)
+      } else {
+        setTrips(data.trips)
+      }
+      setShowUpload(false) // Close upload if it was open
     } catch (err) {
       alert('Error al subir el archivo: ' + err.message)
     } finally {
@@ -135,7 +148,7 @@ function AppContent() {
       <header className="topbar">
         <div className="topbar-wordmark">Sotelo <em>Nómina</em></div>
         <div className="topbar-sep"></div>
-        <span className="topbar-tag">v1.1 · Control Financiero</span>
+        <span className="topbar-tag">v1.2 · Control Financiero</span>
         <div className="topbar-spacer"></div>
 
         {dateRange && (
@@ -148,15 +161,42 @@ function AppContent() {
 
         <nav className="topbar-nav">
           {canAccessAdmin && <a href="/admin" className="topbar-nav-link">Administración</a>}
+          {trips.length > 0 && <button className="topbar-nav-link" onClick={() => { setTrips([]); setDateRange(null); setShowUpload(false) }}>Inicio</button>}
           <span className="topbar-user">{user?.email}</span>
           <button className="topbar-logout" onClick={logout}>Salir</button>
         </nav>
       </header>
 
       {trips.length === 0 ? (
-        <div className="fullscreen-center">
-          <FileUpload onUpload={handleFileUpload} loading={loading} />
-        </div>
+        showUpload ? (
+          <div className="fullscreen-center" style={{ position: 'relative' }}>
+            <button 
+              onClick={() => setShowUpload(false)} 
+              className="absolute top-8 left-8 text-slate-500 hover:text-slate-800 font-bold"
+            >
+              <i className="fas fa-arrow-left"></i> Volver al Calendario
+            </button>
+            <FileUpload onUpload={handleFileUpload} loading={loading} />
+          </div>
+        ) : (
+          <DashboardCalendar 
+            onUploadClick={(weekInfo) => setShowUpload(true)}
+            onSelectWeek={async (liq) => {
+              try {
+                setLoading(true)
+                const { fetchLiquidacionById } = await import('./api')
+                const fullLiq = await fetchLiquidacionById(liq.id)
+                let parsed = fullLiq.datos_json
+                if (typeof parsed === 'string') parsed = JSON.parse(parsed)
+                setTrips(parsed)
+              } catch (err) {
+                alert(err.message)
+              } finally {
+                setLoading(false)
+              }
+            }}
+          />
+        )
       ) : !dateRange ? (
         <div className="fullscreen-center">
           <PeriodSelector availableDates={availableDates} onSelect={setDateRange} />
@@ -199,6 +239,22 @@ function AppContent() {
             )}
           </div>
         </div>
+      )}
+
+      {duplicateWarnings && (
+        <DuplicateWarningModal 
+          warnings={duplicateWarnings}
+          trips={pendingTrips}
+          onCancel={() => {
+            setDuplicateWarnings(null)
+            setPendingTrips(null)
+          }}
+          onConfirm={(filteredTrips) => {
+            setTrips(filteredTrips)
+            setDuplicateWarnings(null)
+            setPendingTrips(null)
+          }}
+        />
       )}
 
       {catalogLoading && <div className="catalog-loading-toast">Cargando catalogos...</div>}
