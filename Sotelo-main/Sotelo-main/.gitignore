@@ -1,0 +1,21 @@
+# Secretos — nunca versionar
+backend/.env
+frontend/.env.local
+docker/.env
+
+# Dependencias
+backend/vendor/
+frontend/node_modules/
+frontend/dist/
+
+# CI4
+backend/writable/cache/*
+backend/writable/debugbar/*
+backend/writable/logs/*
+backend/writable/session/*
+backend/writable/uploads/*
+!backend/writable/.htaccess
+
+# Artefactos de build
+*.log
+.DS_Store

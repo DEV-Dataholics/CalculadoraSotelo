@@ -1,0 +1,279 @@
+﻿Archivos encontrados: 11
+  Sem41 FCH: Foraneo Chihuahua Semana #41.xlsx
+  Sem42 FCH: Foraneo Chihuahua Semana #42.xlsx
+  Sem43 FCH: Foraneo Chihuahua Semana #43.xlsx
+  Sem44 FCH: Foraneo Chihuahua Semana #44.xlsx
+  Sem45 FCH: Foraneo Chihuahua Semana #45(1).xlsx
+  Sem45 FCH: Foraneo Chihuahua Semana #45.xlsx
+  Sem41 PAC: Foraneo pacifico semana #41.xlsx
+  Sem42 PAC: Foraneo pacifico semana #42.xlsx
+  Sem43 PAC: Foraneo pacifico semana #43.xlsx
+  Sem44 PAC: Foraneo pacifico semana #44.xlsx
+  Sem45 PAC: Foraneo pacifico semana #45.xlsx
+
+Procesando Sem41 FCH...
+  19 choferes procesados
+Procesando Sem42 FCH...
+  22 choferes procesados
+Procesando Sem43 FCH...
+  22 choferes procesados
+Procesando Sem44 FCH...
+  23 choferes procesados
+Procesando Sem45 FCH...
+  23 choferes procesados
+Procesando Sem45 FCH...
+  21 choferes procesados
+Procesando Sem41 PAC...
+  12 choferes procesados
+Procesando Sem42 PAC...
+  12 choferes procesados
+Procesando Sem43 PAC...
+  13 choferes procesados
+Procesando Sem44 PAC...
+  13 choferes procesados
+Procesando Sem45 PAC...
+  13 choferes procesados
+
+==========================================================================================
+SEM   TIPO  CHOFER                              UNIDAD     REAL $KM   CALC $KM     DELTA ESTADO
+==========================================================================================
+41    FCH   AGUILAR ESQUIVEL CARLOS             F-021     $1,044.99 $ 1,045.00     +0.01 Γ£ô OK
+41    FCH   AGUILAR RODRIGUEZ JORGE ALONSO      F-029       $824.99 $   825.00     +0.01 Γ£ô OK
+41    FCH   AGUILERA CONTRERAS LUIS GERARDO     F-019       $824.99 $   825.00     +0.01 Γ£ô OK
+41    FCH   BALLEZA RAMIREZ JESUS JOSE          F-040 F-033  $1,099.99 $ 1,100.00     +0.01 Γ£ô OK
+41    FCH   BURGOS TORRES RIGOBERTO             F-023 F-113  $1,368.20 $ 1,368.20     +0.00 Γ£ô OK
+41    FCH   GUZMAN CHAPARRO PEDRO               F-024       $659.99 $   660.00     +0.01 Γ£ô OK
+41    FCH   HERNANDEZ LICANO JOSE LUIS          F-005       $824.99 $   825.00     +0.01 Γ£ô OK
+41    FCH   MARTINEZ RAMIREZ ROSALIO            F-026       $824.99 $   825.00     +0.01 Γ£ô OK
+41    FCH   MACHADO MAZUCA ADOLFO               F-010 F-012    $879.99 $   880.00     +0.01 Γ£ô OK
+41    FCH   MELENDEZ SINALOA MANUEL ARAT        F-028       $582.99 $   583.00     +0.01 Γ£ô OK
+41    FCH   MONTERO BURROLA LUIS                F-025       $659.99 $   660.00     +0.01 Γ£ô OK
+41    FCH   NU├æEZ RUIZ IRVING JAVIER                        $659.99 $   660.00     +0.01 Γ£ô OK
+41    FCH   ONTIVEROS LIRA JUAN                 F-086       $769.99 $   770.00     +0.01 Γ£ô OK
+41    FCH   ORTIZ RAMIREZ HECTOR MANUEL         F-120     $1,072.05 $ 1,072.05     +0.00 Γ£ô OK
+41    FCH   RAMIREZ BAUTISTA ADRIAN             F-042       $879.99 $   880.00     +0.01 Γ£ô OK
+41    FCH   REYES LARA DANTE                    F-009       $769.99 $   770.00     +0.01 Γ£ô OK
+41    FCH   RODRIGUEZ FLORES BRYAN DARIO        F-027       $879.99 $   880.00     +0.01 Γ£ô OK
+41    FCH   LIRA ARCEO JOEL EDUARDO             F-011 F-050    $659.99 $   660.00     +0.01 Γ£ô OK
+41    FCH   VALLES HERNANDEZ MANUEL MARCELINO   F-030     $1,099.99 $ 1,100.00     +0.01 Γ£ô OK
+42    FCH   AGUILAR ESQUIVEL CARLOS             F-021       $769.99 $   770.00     +0.01 Γ£ô OK
+42    FCH   AGUILAR RODRIGUEZ JORGE ALONSO      F-029       $879.99 $   880.00     +0.01 Γ£ô OK
+42    FCH   AGUILERA CONTRERAS LUIS GERARDO     F-019       $824.99 $   825.00     +0.01 Γ£ô OK
+42    FCH   ANCHONDO ROMERO CESAR ALEJANDRO     F-024       $439.99 $   440.00     +0.01 Γ£ô OK
+42    FCH   BALLEZA RAMIREZ JESUS JOSE          F-040     $1,099.99 $ 1,100.00     +0.01 Γ£ô OK
+42    FCH   BURGOS TORRES RIGOBERTO             F-023       $604.99 $   605.00     +0.01 Γ£ô OK
+42    FCH   CARRERA REYES MARTIN SEBASTIAN      F-011       $879.99 $   880.00     +0.01 Γ£ô OK
+42    FCH   GUZMAN CHAPARRO PEDRO               F-024       $604.99 $   605.00     +0.01 Γ£ô OK
+42    FCH   HERNANDEZ LICANO JOSE LUIS          F-005       $604.99 $   605.00     +0.01 Γ£ô OK
+42    FCH   LIRA ARCEO JOEL EDUARDO             F-002 F-009 F-050    $110.00 $   110.00     +0.00 Γ£ô OK
+42    FCH   MARTINEZ RAMIREZ ROSALIO            F-026       $659.99 $   660.00     +0.01 Γ£ô OK
+42    FCH   MACHADO MAZUCA ADOLFO               F-010 F-012    $659.99 $   660.00     +0.01 Γ£ô OK
+42    FCH   MELENDEZ SINALOA MANUEL ARAT        F-028       $879.99 $   880.00     +0.01 Γ£ô OK
+42    FCH   MONTERO BURROLA LUIS                F-025     $1,099.99 $ 1,100.00     +0.01 Γ£ô OK
+42    FCH   NU├æEZ RUIZ IRVING JAVIER                        $824.99 $   825.00     +0.01 Γ£ô OK
+42    FCH   ONTIVEROS LIRA JUAN                 F-086       $439.99 $   440.00     +0.01 Γ£ô OK
+42    FCH   ORONA BECERRA MAURO JOSE            F-022       $439.99 $   440.00     +0.01 Γ£ô OK
+42    FCH   ORTIZ RAMIREZ HECTOR MANUEL         F-120       $612.60 $   612.60     +0.00 Γ£ô OK
+42    FCH   RAMIREZ BAUTISTA ADRIAN             F-042       $769.99 $   770.00     +0.01 Γ£ô OK
+42    FCH   REYES LARA DANTE                    F-009       $439.99 $   440.00     +0.01 Γ£ô OK
+42    FCH   RODRIGUEZ FLORES BRYAN DARIO        F-012       $604.99 $   605.00     +0.01 Γ£ô OK
+42    FCH   VALLES HERNANDEZ MANUEL MARCELINO   F-030       $769.99 $   770.00     +0.01 Γ£ô OK
+43    FCH   AGUILAR ESQUIVEL CARLOS             F-021     $1,099.99 $ 1,100.00     +0.01 Γ£ô OK
+43    FCH   AGUILAR RODRIGUEZ JORGE ALONSO      F-029       $824.99 $   825.00     +0.01 Γ£ô OK
+43    FCH   AGUILERA CONTRERAS LUIS GERARDO     F-019       $439.99 $   440.00     +0.01 Γ£ô OK
+43    FCH   ANCHONDO ROMERO CESAR ALEJANDRO     F-024       $439.99 $   440.00     +0.01 Γ£ô OK
+43    FCH   BALDERRAMA ROBLES JORGE             F-024       $714.99 $   715.00     +0.01 Γ£ô OK
+43    FCH   BALLEZA RAMIREZ JESUS JOSE          F-040       $220.00 $   220.00     +0.00 Γ£ô OK
+43    FCH   BURGOS TORRES RIGOBERTO             F-023     $1,195.59 $ 1,195.60     +0.01 Γ£ô OK
+43    FCH   CARRERA REYES MARTIN SEBASTIAN      F-011       $659.99 $   660.00     +0.01 Γ£ô OK
+43    FCH   GUZMAN CHAPARRO PEDRO               F-024       $883.51 $   883.52     +0.01 Γ£ô OK
+43    FCH   HERNANDEZ LICANO JOSE LUIS          F-005       $879.99 $   880.00     +0.01 Γ£ô OK
+43    FCH   MARTINEZ RAMIREZ ROSALIO            F-026       $659.99 $   660.00     +0.01 Γ£ô OK
+43    FCH   MACHADO MAZUCA ADOLFO               F-010 F-012    $659.99 $   660.00     +0.01 Γ£ô OK
+43    FCH   MELENDEZ SINALOA MANUEL ARAT        F-028       $659.99 $   660.00     +0.01 Γ£ô OK
+43    FCH   MONTERO BURROLA LUIS                F-025       $989.99 $   990.00     +0.01 Γ£ô OK
+43    FCH   MORALES LOPEZ DE LARA MARIANO       F-033       $659.99 $   660.00     +0.01 Γ£ô OK
+43    FCH   NU├æEZ RUIZ IRVING JAVIER                        $659.99 $   660.00     +0.01 Γ£ô OK
+43    FCH   ORONA BECERRA MAURO JOSE            F-022       $879.99 $   880.00     +0.01 Γ£ô OK
+43    FCH   ORTIZ RAMIREZ HECTOR MANUEL         F-120     $1,225.20 $ 1,225.20     +0.00 Γ£ô OK
+43    FCH   RAMIREZ BAUTISTA ADRIAN             F-042       $659.99 $   660.00     +0.01 Γ£ô OK
+43    FCH   REYES LARA DANTE                    F-009       $879.99 $   880.00     +0.01 Γ£ô OK
+43    FCH   RODRIGUEZ FLORES BRYAN DARIO        F-027       $659.99 $   660.00     +0.01 Γ£ô OK
+43    FCH   VALLES HERNANDEZ MANUEL MARCELINO   F-030     $1,059.65 $ 1,059.67     +0.02 Γ£ô OK
+44    FCH   AGUILAR ESQUIVEL CARLOS             F-021     $1,044.99 $ 1,045.00     +0.01 Γ£ô OK
+44    FCH   AGUILAR RODRIGUEZ JORGE ALONSO      F-029       $879.99 $   880.00     +0.01 Γ£ô OK
+44    FCH   AGUILERA CONTRERAS LUIS GERARDO     F-019       $773.51 $   773.52     +0.01 Γ£ô OK
+44    FCH   ANCHONDO ROMERO CESAR ALEJANDRO     F-024       $275.00 $   275.00     +0.00 Γ£ô OK
+44    FCH   BALDERRAMA ROBLES JORGE             F-024       $275.00 $   275.00     +0.00 Γ£ô OK
+44    FCH   BALLEZA RAMIREZ JESUS JOSE          F-040       $989.99 $   990.00     +0.01 Γ£ô OK
+44    FCH   BURGOS TORRES RIGOBERTO             F-023     $1,140.59 $ 1,140.60     +0.01 Γ£ô OK
+44    FCH   CARRERA REYES MARTIN SEBASTIAN      F-011       $604.99 $   605.00     +0.01 Γ£ô OK
+44    FCH   FLORES BOJORQUEZ BRYAN OVED         F-027 F-026    $220.00 $   220.00     +0.00 Γ£ô OK
+44    FCH   HERNANDEZ LICANO JOSE LUIS          F-005       $879.99 $   880.00     +0.01 Γ£ô OK
+44    FCH   MARTINEZ RAMIREZ ROSALIO            F-026       $769.99 $   770.00     +0.01 Γ£ô OK
+44    FCH   MACHADO MAZUCA ADOLFO               F-010 F-012    $604.99 $   605.00     +0.01 Γ£ô OK
+44    FCH   MELENDEZ SINALOA MANUEL ARAT        F-028       $769.99 $   770.00     +0.01 Γ£ô OK
+44    FCH   MONTERO BURROLA LUIS                F-025       $879.99 $   880.00     +0.01 Γ£ô OK
+44    FCH   MORALES LECHUGA GONZALO             F-042       $549.99 $   550.00     +0.01 Γ£ô OK
+44    FCH   MORALES LOPEZ DE LARA MARIANO       F-033     $1,099.99 $ 1,100.00     +0.01 Γ£ô OK
+44    FCH   NU├æEZ RUIZ IRVING JAVIER                        $769.99 $   770.00     +0.01 Γ£ô OK
+44    FCH   ORONA BECERRA MAURO JOSE            F-022       $604.99 $   605.00     +0.01 Γ£ô OK
+44    FCH   ORTIZ RAMIREZ HECTOR MANUEL         F-120     $1,226.85 $ 1,233.60     +6.75 Γ£ù 0.6%
+44    FCH   RAMIREZ BAUTISTA ADRIAN             F-042       $604.99 $   605.00     +0.01 Γ£ô OK
+44    FCH   REYES LARA DANTE                    F-009       $385.00 $   385.00     +0.00 Γ£ô OK
+44    FCH   RODRIGUEZ FLORES BRYAN DARIO        F-027       $659.99 $   660.00     +0.01 Γ£ô OK
+44    FCH   VALLES HERNANDEZ MANUEL MARCELINO   F-030       $879.99 $   880.00     +0.01 Γ£ô OK
+45    FCH   AGUILAR ESQUIVEL CARLOS             F-021     $1,099.99 $ 1,100.00     +0.01 Γ£ô OK
+45    FCH   AGUILAR RODRIGUEZ JORGE ALONSO      F-029       $824.99 $   825.00     +0.01 Γ£ô OK
+45    FCH   AGUILERA CONTRERAS LUIS GERARDO     F-019       $604.99 $   605.00     +0.01 Γ£ô OK
+45    FCH   BALDERRAMA ROBLES JORGE             F-024       $659.99 $   660.00     +0.01 Γ£ô OK
+45    FCH   BALLEZA RAMIREZ JESUS JOSE          F-040       $879.99 $   880.00     +0.01 Γ£ô OK
+45    FCH   BURGOS TORRES RIGOBERTO             F-023       $975.60 $   975.60     +0.00 Γ£ô OK
+45    FCH   FLORES BOJORQUEZ BRYAN OVED         F-027 F-026    $659.99 $   660.00     +0.01 Γ£ô OK
+45    FCH   GUZMAN CHAPARRO PEDRO               F-024       $556.30 $   556.30     -0.00 Γ£ô OK
+45    FCH   HERNANDEZ LICANO JOSE LUIS          F-005       $824.99 $   825.00     +0.01 Γ£ô OK
+45    FCH   MARTINEZ RAMIREZ ROSALIO            F-026       $879.99 $   880.00     +0.01 Γ£ô OK
+45    FCH   MACHADO MAZUCA ADOLFO               F-010 F-012    $659.99 $   660.00     +0.01 Γ£ô OK
+45    FCH   MELENDEZ SINALOA MANUEL ARAT        F-028       $912.99 $   913.00     +0.01 Γ£ô OK
+45    FCH   MONTERO BURROLA LUIS                F-025       $439.99 $   440.00     +0.01 Γ£ô OK
+45    FCH   MORALES LECHUGA GONZALO             F-042       $439.99 $   440.00     +0.01 Γ£ô OK
+45    FCH   MORALES LOPEZ DE LARA MARIANO       F-033     $1,099.99 $ 1,100.00     +0.01 Γ£ô OK
+45    FCH   NU├æEZ RUIZ IRVING JAVIER                        $824.99 $   825.00     +0.01 Γ£ô OK
+45    FCH   ONTIVEROS LIRA JUAN                 F-086       $220.00 $   220.00     +0.00 Γ£ô OK
+45    FCH   ORONA BECERRA MAURO JOSE            F-022     $1,209.99 $ 1,210.00     +0.01 Γ£ô OK
+45    FCH   ORTIZ RAMIREZ HECTOR MANUEL         F-120     $1,225.20 $ 1,225.20     +0.00 Γ£ô OK
+45    FCH   RAMIREZ BAUTISTA ADRIAN             F-042       $818.68 $   818.70     +0.02 Γ£ô OK
+45    FCH   REYES LARA DANTE                    F-009       $879.99 $   880.00     +0.01 Γ£ô OK
+45    FCH   RODRIGUEZ FLORES BRYAN DARIO        F-027       $879.99 $   880.00     +0.01 Γ£ô OK
+45    FCH   VALLES HERNANDEZ MANUEL MARCELINO   F-030       $879.99 $   880.00     +0.01 Γ£ô OK
+45    FCH   AGUILAR ESQUIVEL CARLOS             F-021     $1,099.99 $ 1,100.00     +0.01 Γ£ô OK
+45    FCH   AGUILAR RODRIGUEZ JORGE ALONSO      F-029       $824.99 $   825.00     +0.01 Γ£ô OK
+45    FCH   AGUILERA CONTRERAS LUIS GERARDO     F-019       $604.99 $   605.00     +0.01 Γ£ô OK
+45    FCH   BALDERRAMA ROBLES JORGE             F-024       $659.99 $   660.00     +0.01 Γ£ô OK
+45    FCH   BALLEZA RAMIREZ JESUS JOSE          F-040       $879.99 $   880.00     +0.01 Γ£ô OK
+45    FCH   FLORES BOJORQUEZ BRYAN OVED         F-027 F-026    $659.99 $   660.00     +0.01 Γ£ô OK
+45    FCH   GUZMAN CHAPARRO PEDRO               F-024       $556.30 $   556.30     -0.00 Γ£ô OK
+45    FCH   HERNANDEZ LICANO JOSE LUIS          F-005       $824.99 $   825.00     +0.01 Γ£ô OK
+45    FCH   MARTINEZ RAMIREZ ROSALIO            F-026       $879.99 $   880.00     +0.01 Γ£ô OK
+45    FCH   MACHADO MAZUCA ADOLFO               F-010 F-012    $659.99 $   660.00     +0.01 Γ£ô OK
+45    FCH   MELENDEZ SINALOA MANUEL ARAT        F-028       $912.99 $   913.00     +0.01 Γ£ô OK
+45    FCH   MONTERO BURROLA LUIS                F-025       $440.00 $   440.00     +0.00 Γ£ô OK
+45    FCH   MORALES LECHUGA GONZALO             F-042       $440.00 $   440.00     +0.00 Γ£ô OK
+45    FCH   MORALES LOPEZ DE LARA MARIANO       F-033     $1,099.99 $ 1,100.00     +0.01 Γ£ô OK
+45    FCH   ONTIVEROS LIRA JUAN                 F-086       $220.00 $   220.00     +0.00 Γ£ô OK
+45    FCH   ORONA BECERRA MAURO JOSE            F-022     $1,209.99 $ 1,210.00     +0.01 Γ£ô OK
+45    FCH   ORTIZ RAMIREZ HECTOR MANUEL         F-120     $1,225.20 $ 1,225.20     +0.00 Γ£ô OK
+45    FCH   RAMIREZ BAUTISTA ADRIAN             F-042       $818.68 $   818.70     +0.02 Γ£ô OK
+45    FCH   REYES LARA DANTE                    F-009       $879.99 $   880.00     +0.01 Γ£ô OK
+45    FCH   RODRIGUEZ FLORES BRYAN DARIO        F-027           N/A $   660.00       N/A SIN DATO
+45    FCH   VALLES HERNANDEZ MANUEL MARCELINO   F-030       $879.99 $   880.00     +0.01 Γ£ô OK
+41    PAC   CERDA HERNANDEZ JOSE LUIS           F-117     $1,072.05 $ 1,072.05     +0.00 Γ£ô OK
+41    PAC   GONZALEZ MARTINEZ MAURICIO          F-115     $1,596.00 $ 1,596.00     +0.00 Γ£ô OK
+41    PAC   TORRES GARAY LUIS HUMBERTO          F-111       $612.60 $   612.60     +0.00 Γ£ô OK
+41    PAC   HERNANDEZ CONTRERAS JOSE FERNANDO   F-038     $1,410.60 $ 1,410.60     +0.00 Γ£ô OK
+41    PAC   MARTA RUBIO MARTIN                  F-121     $1,582.20 $ 1,582.20     +0.00 Γ£ô OK
+41    PAC   NEVAREZ JUAN MANUEL                 F-036 F-111    $722.60 $   725.10     +2.50 Γ£ù 0.3%
+41    PAC   HARO IMPERIAL JOS├ë ANTONIO          F-114     $1,018.00 $ 1,023.00     +5.00 Γ£ù 0.5%
+41    PAC   LIRA TRISTAN JOSE ANGEL             F-118       $791.10 $   791.10     +0.00 Γ£ô OK
+41    PAC   RODRIGUEZ RAMIREZ FERNANDO          F-034       $798.00 $   798.00     +0.00 Γ£ô OK
+41    PAC   RODRIGUEZ VALLES JOSE FRANCISCO     F-119       $459.45 $   459.45     -0.00 Γ£ô OK
+41    PAC   RUEDA SALAZAR ISMAEL                F-119 F-026    $612.60 $   612.60     +0.00 Γ£ô OK
+41    PAC   RUIZ ALVARADO PEDRO                 F-035     $1,072.05 $ 1,072.05     +0.00 Γ£ô OK
+42    PAC   CERDA HERNANDEZ JOSE LUIS           F-117       $918.90 $   918.90     -0.00 Γ£ô OK
+42    PAC   GONZALEZ MARTINEZ MAURICIO          F-115     $1,410.60 $ 1,410.60     +0.00 Γ£ô OK
+42    PAC   TORRES GARAY LUIS HUMBERTO          F-111       $798.00 $   798.00     +0.00 Γ£ô OK
+42    PAC   HERNANDEZ CONTRERAS JOSE FERNANDO   F-038     $1,410.60 $ 1,410.60     +0.00 Γ£ô OK
+42    PAC   NEVAREZ JUAN MANUEL                 F-037 F-111  $1,225.20 $ 1,225.20     +0.00 Γ£ô OK
+42    PAC   PACHECO BA├æUELOS ALFONSO            F-037       $612.60 $   612.60     +0.00 Γ£ô OK
+42    PAC   HARO IMPERIAL JOS├ë ANTONIO          F-114     $1,405.35 $ 1,405.35     +0.00 Γ£ô OK
+42    PAC   LIRA TRISTAN JOSE ANGEL             F-111 F-118  $1,582.20 $ 1,582.20     +0.00 Γ£ô OK
+42    PAC   RODRIGUEZ RAMIREZ FERNANDO          F-034 F-114  $1,839.45 $ 1,839.45     +0.00 Γ£ô OK
+42    PAC   RODRIGUEZ VALLES JOSE FRANCISCO     F-113     $1,257.45 $ 1,257.45     +0.00 Γ£ô OK
+42    PAC   RUEDA SALAZAR ISMAEL                F-119 F-026  $1,402.05 $ 1,480.80    +78.75 Γ£ù 5.6%
+42    PAC   RUIZ ALVARADO PEDRO                 F-035     $1,072.05 $ 1,072.05     +0.00 Γ£ô OK
+43    PAC   CERDA HERNANDEZ JOSE LUIS           F-117     $1,044.00 $ 1,044.00     +0.00 Γ£ô OK
+43    PAC   GONZALEZ MARTINEZ MAURICIO          F-115     $1,596.00 $ 1,596.00     +0.00 Γ£ô OK
+43    PAC   HARO IMPERIAL JOS├ë ANTONIO          F-114     $1,461.90 $ 1,461.90     +0.00 Γ£ô OK
+43    PAC   HERNANDEZ CONTRERAS JOSE FERNANDO   F-038     $1,410.60 $ 1,410.60     +0.00 Γ£ô OK
+43    PAC   NEVAREZ JUAN MANUEL                 F-037 F-111  $1,225.20 $ 1,225.20     +0.00 Γ£ô OK
+43    PAC   PACHECO BA├æUELOS ALFONSO            F-037       $612.60 $   612.60     +0.00 Γ£ô OK
+43    PAC   LIRA TRISTAN JOSE ANGEL             F-111 F-118    $459.45 $   459.45     -0.00 Γ£ô OK
+43    PAC   RODRIGUEZ RAMIREZ FERNANDO          F-034 F-114    $798.00 $   798.00     +0.00 Γ£ô OK
+43    PAC   RODRIGUEZ VALLES JOSE FRANCISCO     F-113     $1,410.60 $ 1,410.60     +0.00 Γ£ô OK
+43    PAC   RUEDA SALAZAR ISMAEL                F-119 F-026    $791.10 $   791.10     +0.00 Γ£ô OK
+43    PAC   RUIZ ALVARADO PEDRO                 F-035     $1,225.20 $ 1,225.20     +0.00 Γ£ô OK
+43    PAC   TORRES GARAY LUIS HUMBERTO          F-111       $791.10 $   791.10     +0.00 Γ£ô OK
+43    PAC   VAZQUEZ TORRES ENAHUM               F-111       $612.60 $   612.60     +0.00 Γ£ô OK
+44    PAC   CERDA HERNANDEZ JOSE LUIS           F-117       $612.60 $   612.60     +0.00 Γ£ô OK
+44    PAC   GONZALEZ MARTINEZ MAURICIO          F-115     $1,596.00 $ 1,596.00     +0.00 Γ£ô OK
+44    PAC   HARO IMPERIAL JOS├ë ANTONIO          F-114     $1,410.60 $ 1,410.60     +0.00 Γ£ô OK
+44    PAC   HERNANDEZ CONTRERAS JOSE FERNANDO   F-038     $1,403.70 $ 1,403.70     +0.00 Γ£ô OK
+44    PAC   MARTA RUBIO MARTIN                  F-121       $459.45 $   459.45     -0.00 Γ£ô OK
+44    PAC   NEVAREZ JUAN MANUEL                 F-037 F-111  $1,225.20 $ 1,225.20     +0.00 Γ£ô OK
+44    PAC   PACHECO BA├æUELOS ALFONSO            F-037     $1,447.35 $ 1,447.35     -0.00 Γ£ô OK
+44    PAC   LIRA TRISTAN JOSE ANGEL             F-111 F-118    $791.10 $   791.10     +0.00 Γ£ô OK
+44    PAC   RODRIGUEZ RAMIREZ FERNANDO          F-034 F-114  $1,596.00 $ 1,596.00     +0.00 Γ£ô OK
+44    PAC   RODRIGUEZ VALLES JOSE FRANCISCO     F-113     $1,410.60 $ 1,410.60     +0.00 Γ£ô OK
+44    PAC   RUEDA SALAZAR ISMAEL                F-119 F-026    $440.00 $   450.00    +10.00 Γ£ù 2.3%
+44    PAC   RUIZ ALVARADO PEDRO                 F-035     $1,225.20 $ 1,225.20     +0.00 Γ£ô OK
+44    PAC   VAZQUEZ TORRES ENAHUM               F-111     $1,225.20 $ 1,225.20     +0.00 Γ£ô OK
+45    PAC   CERDA HERNANDEZ JOSE LUIS           F-117     $1,225.20 $ 1,225.20     +0.00 Γ£ô OK
+45    PAC   GONZALEZ MARTINEZ MAURICIO          F-115       $798.00 $   798.00     +0.00 Γ£ô OK
+45    PAC   HARO IMPERIAL JOS├ë ANTONIO          F-114     $1,562.30 $ 1,564.80     +2.50 Γ£ù 0.2%
+45    PAC   HERNANDEZ CONTRERAS JOSE FERNANDO   F-038     $1,225.20 $ 1,225.20     +0.00 Γ£ô OK
+45    PAC   MARTA RUBIO MARTIN                  F-121       $791.10 $   791.10     +0.00 Γ£ô OK
+45    PAC   NEVAREZ JUAN MANUEL                 F-037 F-111    $621.00 $   621.00     +0.00 Γ£ô OK
+45    PAC   PACHECO BA├æUELOS ALFONSO            F-037     $1,225.20 $ 1,225.20     +0.00 Γ£ô OK
+45    PAC   LIRA TRISTAN JOSE ANGEL             F-111 F-118  $1,410.60 $ 1,410.60     +0.00 Γ£ô OK
+45    PAC   RODRIGUEZ RAMIREZ FERNANDO          F-034 F-114    $798.00 $   798.00     +0.00 Γ£ô OK
+45    PAC   RODRIGUEZ VALLES JOSE FRANCISCO     F-113     $1,491.40 $ 1,492.65     +1.25 Γ£ù 0.1%
+45    PAC   RUEDA SALAZAR ISMAEL                F-119 F-026  $1,225.20 $ 1,225.20     +0.00 Γ£ô OK
+45    PAC   RUIZ ALVARADO PEDRO                 F-035     $1,412.25 $ 1,412.25     +0.00 Γ£ô OK
+45    PAC   VAZQUEZ TORRES ENAHUM               F-111     $1,837.80 $ 1,837.80     +0.00 Γ£ô OK
+==========================================================================================
+Total choferes: 193  |  OK: 185  |  Diferencias: 7  |  Sin dato: 1
+Delta acumulado en diferencias: $+106.75
+
+==========================================================================================
+DETALLE ΓÇö MOVIMIENTOS CON DIFERENCIAS (primeros 3 choferes)
+==========================================================================================
+
+Sem42 PAC | RUEDA SALAZAR ISMAEL | F-119 F-026
+  Real: $1,402.05  Calc: $1,480.80  Delta: $+78.75
+  COORD                   R     KM  CVT    REAL_Q    CALC_Q   DELTA_Q
+  2873740-1               1   1021    2 $  153.15 $  153.15     +0.00
+  2873801-2               2   1021    1 $  306.30 $  306.30     +0.00
+  2874346-7              51    425    1 $  110.00 $  127.50    +17.50 <-- DIFF
+  2874599-1              52    375    3 $   55.00 $   56.25     +1.25 <-- DIFF
+  2874732-3              51    375    1 $  110.00 $  112.50     +2.50 <-- DIFF
+  2874848-5              52    375    1 $   55.00 $  112.50    +57.50 <-- DIFF
+  2874901-2               1   1021    1 $  306.30 $  306.30     +0.00
+  2874961-2               2   1021    1 $  306.30 $  306.30     +0.00
+
+Sem44 PAC | RUEDA SALAZAR ISMAEL | F-119 F-026
+  Real: $440.00  Calc: $450.00  Delta: $+10.00
+  COORD                   R     KM  CVT    REAL_Q    CALC_Q   DELTA_Q
+  2876957-3              51    375    1 $  110.00 $  112.50     +2.50 <-- DIFF
+  2876697-3              52    375    1 $  110.00 $  112.50     +2.50 <-- DIFF
+  2877422-4              51    375    1 $  110.00 $  112.50     +2.50 <-- DIFF
+  2877544-3              52    375    1 $  110.00 $  112.50     +2.50 <-- DIFF
+
+Sem44 FCH | ORTIZ RAMIREZ HECTOR MANUEL | F-120
+  Real: $1,226.85  Calc: $1,233.60  Delta: $+6.75
+  COORD                   R     KM  CVT    REAL_Q    CALC_Q   DELTA_Q
+  2877022-3              15   1021    1 $  306.30 $  306.30     +0.00
+  2877655-2              16   1021    1 $  306.30 $  306.30     +0.00
+  2876668-2              15   1004    1 $  301.20 $  301.20     +0.00
+  2877001-3              16     45    1 $    6.75 $   13.50     +6.75 <-- DIFF
+  2877001-3              16   1021    1 $  306.30 $  306.30     +0.00
+
+==========================================================================================
+HALLAZGOS DE VALIDACION
+==========================================================================================
+  Precisi├│n base-pay: 95.9% (185/193 choferes dentro de $1)
+  Tasa FCH aplicada: $0.29333/km cargado | $0.14666/km vac├¡o/PT
+  Tasa PAC aplicada: $0.30/km cargado    | $0.15/km vac├¡o/PT
+  ELP deductions: cvpt=4 ΓåÆ-40km, cvpt=5 ΓåÆ-50km, cvpt=6 ΓåÆ-90km
+
+  FCH: 128/129 OK  | Delta total: $+7.87
+  PAC: 57/63 OK  | Delta total: $+100.00

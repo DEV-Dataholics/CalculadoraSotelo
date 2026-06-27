@@ -1,0 +1,69 @@
+<?php
+
+namespace App\Database\Migrations;
+
+use CodeIgniter\Database\Migration;
+
+class CreateUsersTable extends Migration
+{
+    public function up(): void
+    {
+        $this->forge->addField([
+            'id' => [
+                'type'           => 'INT',
+                'constraint'     => 11,
+                'unsigned'       => true,
+                'auto_increment' => true,
+            ],
+            'email' => [
+                'type'       => 'VARCHAR',
+                'constraint' => 191,
+                'null'       => false,
+            ],
+            'password_hash' => [
+                'type'       => 'VARCHAR',
+                'constraint' => 255,
+                'null'       => false,
+            ],
+            'is_active' => [
+                'type'    => 'TINYINT',
+                'constraint' => 1,
+                'default' => 1,
+            ],
+            'unidad' => [
+                'type'       => 'VARCHAR',
+                'constraint' => 20,
+                'null'       => true,
+                'default'    => null,
+            ],
+            'operador_ref' => [
+                'type'       => 'VARCHAR',
+                'constraint' => 100,
+                'null'       => true,
+                'default'    => null,
+            ],
+            'last_login_at' => [
+                'type' => 'DATETIME',
+                'null' => true,
+                'default' => null,
+            ],
+            'created_at' => [
+                'type' => 'DATETIME',
+                'null' => false,
+            ],
+            'updated_at' => [
+                'type' => 'DATETIME',
+                'null' => false,
+            ],
+        ]);
+
+        $this->forge->addKey('id', true);
+        $this->forge->addUniqueKey('email');
+        $this->forge->createTable('users');
+    }
+
+    public function down(): void
+    {
+        $this->forge->dropTable('users', true);
+    }
+}

@@ -1,0 +1,23 @@
+# Secretos
+Sotelo-main/Sotelo-main/backend/.env
+Sotelo-main/Sotelo-main/frontend/.env.local
+docker/.env
+
+# Dependencias
+Sotelo-main/Sotelo-main/backend/vendor/
+Sotelo-main/Sotelo-main/frontend/node_modules/
+Sotelo-main/Sotelo-main/frontend/dist/
+
+# CI4
+Sotelo-main/Sotelo-main/backend/writable/cache/*
+Sotelo-main/Sotelo-main/backend/writable/debugbar/*
+Sotelo-main/Sotelo-main/backend/writable/logs/*
+Sotelo-main/Sotelo-main/backend/writable/session/*
+Sotelo-main/Sotelo-main/backend/writable/uploads/*
+!Sotelo-main/Sotelo-main/backend/writable/.htaccess
+
+# Artefactos
+*.log
+.DS_Store
+*.zip
+*.xlsx

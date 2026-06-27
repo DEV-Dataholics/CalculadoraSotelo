@@ -1,0 +1,6 @@
+PayrollTool deploy release
+- backend/: FastAPI source and requirements
+- frontend_dist/: compiled static frontend
+
+Expected API URL in frontend source is currently: http://localhost:8000
+If production backend URL differs, frontend must be rebuilt with updated endpoint.

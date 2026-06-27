@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd /home/dagargon89/Sotelo/backend && php spark make:controller UploadController && php spark make:controller CalculateController && php spark make:controller CatalogController && php spark make:controller TabuladorController && php spark make:controller SessionController && php spark make:model UnidadModel && php spark make:model RutaModel && php spark make:model TabuladorModel && php spark make:model LiquidacionModel && php spark make:model AuditLogModel && php spark make:migration CreateUnidadesRendimiento && php spark make:migration CreateRutasDistancias && php spark make:migration CreatePacificoKeywords && php spark make:migration CreateTabuladorTarifas && php spark make:migration CreateLiquidacionesTemporales && php spark make:migration CreateAuditLogs && php spark make:seeder UnidadesSeeder && php spark make:seeder RutasSeeder && php spark make:seeder PacificoKeywordsSeeder$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

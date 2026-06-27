@@ -1,0 +1,41 @@
+# Docker Compose — BD de prueba para PayrollTool (MySQL 8)
+# Uso:  docker compose up -d   ·   apaga: docker compose down   ·   borra datos: docker compose down -v
+# Stack: MySQL 8 + Adminer (UI web ligera para inspeccionar la BD).
+# Las credenciales reales de producción NO van aquí; ver .env.example.
+
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: sotelo_mysql_test
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:-rootpass}
+      MYSQL_DATABASE: ${DB_DATABASE:-sotelo_payroll}
+      MYSQL_USER: ${DB_USERNAME:-sotelo}
+      MYSQL_PASSWORD: ${DB_PASSWORD:-sotelopass}
+    ports:
+      - "${DB_PORT:-3306}:3306"
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+    volumes:
+      - sotelo_mysql_data:/var/lib/mysql
+      - ./initdb:/docker-entrypoint-initdb.d:ro   # scripts .sql opcionales al primer arranque
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "-uroot", "-prootpass"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+
+  adminer:
+    image: adminer:4
+    container_name: sotelo_adminer
+    restart: unless-stopped
+    depends_on:
+      mysql:
+        condition: service_healthy
+    ports:
+      - "${ADMINER_PORT:-8080}:8080"
+
+volumes:
+  sotelo_mysql_data:

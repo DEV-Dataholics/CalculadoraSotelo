@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Custom Scrollbar for Trip Cards */
+.trip-card-scroll::-webkit-scrollbar {
+    width: 6px;
+}
+
+.trip-card-scroll::-webkit-scrollbar-thumb {
+    background-color: #CBD5E1;
+    border-radius: 4px;
+}

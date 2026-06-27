@@ -1,0 +1,15 @@
+Options -Indexes
+DirectoryIndex index.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Route clean API URLs to PHP files
+  RewriteRule ^api/upload$    api/upload.php    [L]
+  RewriteRule ^api/calculate$ api/calculate.php [L]
+
+  # SPA fallback for everything else
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ index.html [L]
+</IfModule>

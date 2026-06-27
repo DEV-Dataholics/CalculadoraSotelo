@@ -1,0 +1,828 @@
+﻿
+> OPERADOR FORANO 
+PACIFICO:
+  
+> Al operador FORANEO 
+PACIFICO se muy similar 
+al operador forneos 
+chihuahua
+  
+  El pago principal es 
+el Diesel la forma de 
+calcular el pago es. El 
+operador tiene cierta 
+cantidad de Diesel para 
+realizar su viaje, la 
+forma de calcular la 
+cantidad de litros es:
+  KILOMETROS/ 
+RENDIMIENTO = LITROS
+  LAS RUTA YA TIENEN 
+LOS KILOMETROS 
+ESTABLECIDOS:
+> DISTANCIA KILOMETROS 
+PACIFICO
+  R
+  ORIGEN
+  DESTINO
+  KMS
+  1
+  JRZ
+  OBRG
+  1021
+  2
+  OBRG
+  JRZ
+  1021
+  3
+  JRZ
+  GUAMUCHIL
+  1330
+  4
+  GUAMUCHIL
+  JRZ
+  1330
+  5
+  OBRG
+  GUAMUCHIL
+  328
+  6
+  GUAMUCHIL
+  OBRG
+  328
+  7
+  CHIH.
+  OBRG
+  1131
+  8
+  OBRG
+  CHIH.
+  1131
+  9
+  MOCHIS
+  GUAMUCHIL
+  106
+  10
+  GUAMUCHIL
+  MOCHIS
+  106
+  11
+  JRZ
+  BACUM
+  1004
+  12
+  BACUM
+  JRZ
+  1004
+  13
+  MOCHIS
+  OBRG
+  232
+  14
+  OBRG
+  MOCHIS
+  232
+  15
+  BACUM
+  OBRG
+  45
+  16
+  OBRG
+  BACUM
+  45
+  17
+  CHIH.
+  MOCHIS
+  1363
+  18
+  MOCHIS
+  CHIH.
+  1363
+  19
+  JRZ
+  NAVOJOA
+  1081
+  20
+  NAVOJOA
+  JRZ
+  1081
+  21
+  CANANEA 
+  OBRG
+  551
+  22
+  OBRG
+  CANANEA
+  551
+  23
+  JRZ
+  CANANEA
+  457
+  24
+  CANANEA 
+  JRZ
+  457
+  25
+  JRZ
+  ETCHO
+  1118
+  26
+  ETCHO
+  JRZ
+  1118
+  27
+  ETCHO
+  OBRG
+  97
+  28
+  OBRG
+  ETCHO
+  97
+  29
+  OBRG
+  NAVOJOA
+  67
+  30
+  NAVOJOA
+  OBRG
+  67
+  31
+  ETCHO
+  NAVOJOA
+  30
+  32
+  NAVOJOA
+  ETCHO
+  30
+  33
+  OBRG
+  CUAHU.
+  1236
+  34
+  CUAHU.
+  OBRG
+  1236
+  35
+  ETCHO
+  JANOS
+  888
+  36
+  JANOS
+  ETCHO
+  888
+  37
+  JANOS
+  OBRG
+  795
+  38
+  OBRG
+  JANOS
+  795
+  39
+  NOGALES
+  JRZ
+  603
+  40
+  JRZ
+  NOGALES
+  603
+  41
+  S. RIO COL.
+  HERMOSILLO
+  630
+  42
+  HERMOSILLO
+  OBRG
+  255
+  43
+  CHIH.
+  CUAHU.
+  145
+  44
+  S. RIO COL.
+  EMPALME
+  772
+  45
+  EMPALME
+  OBRG
+  120
+  46
+  JANOS
+  GUAMUCHIL
+  1120
+  47
+  JRZ
+  JANOS
+  219
+  48
+  JANOS 
+  MOCHIS
+  1027
+  49
+  JRZ
+  CUAHU.
+  480
+> Adems, se paga el km 
+o mano de obra en la 
+ruta de pacifico, se 
+multiplica la cantidad 
+de km por .30 centavos 
+si va cargado o .15 
+centavos si es vacio o 
+pt, es importante 
+calcular por corrida, 
+es decir:
+  EJEMPLO:
+  CARGADO JUAREZ  
+OBREGON $306.30 PESOS.
+   VACIO O PT OBREGON  
+JUAREZ $153.15 PESOS.
+  
+  BONO SIERRA:
+  Para ganar el bono 
+sierra el operador 
+tiene que llevar caja 
+cargada de ida y de 
+regreso si cumple con 
+este requisito se paga 
+un bono por $500.00 
+pesos.
+  
+  BONO POR DOBLE 
+OPERADOR:
+  EN LA RUTA REDONDA DE 
+APTIV A GUAMUCHIL SE 
+CONCIDERA UN PAGO 
+ADICIONAL DE $2439.00 
+PESOS para ganar el 
+bono el operador tiene 
+que realizar un tiempo 
+de ruta de 24 horas de 
+guamchil a Juarez nota 
+no se considera el 
+tiempo en los retes 
+militares para el 
+tiempo de ruta.
+  
+  En la ruta obregn 
+solo aplica el bono 
+siempre y cuando el 
+cliente lo solicite y 
+el pago es por $1726.00 
+pesos.
+  
+  
+  
+  
+  ESTANCIAS:
+  Para aplicar un pago 
+de estancia en ciudad 
+obregn el operador 
+tiene que estar 
+detenido 24 horas 
+esperando regreso si se 
+cumple ese requisito se 
+paga $600.00 pesos.
+  
+  En caso de ser una 
+estancia en ciudad 
+Guamchil o Los Mochis 
+la regla es de un pago 
+de  $300.00 pesos por 
+cada 6 horas detenido.
+  
+  
+  
+  
+  
+  === REPORTE 1 
+(Foraneo Chihuahua) ===
+  Sheet names: 
+['NOMINA', 'AGUILAR 
+ESQUIVEL CARLOS', 
+'AGUILAR RODRIGUEZ 
+JORGE ALONSO', 
+'AGUILERA CONTRERAS 
+LUIS GERARDO', 
+'BALDERRAMA ROBLES 
+JORGE', 'BALLEZA 
+RAMIREZ JESUS JOSE', 
+'BURGOS TORRES 
+RIGOBERTO', 'CARDENAS 
+CARDENAS JAVIER ', 
+'CARRERA REYES MARTIN 
+SEBASTIAN', 'CORDOVA 
+URIBE JOSE  ADRIAN', 
+'GUZMAN CHAPARRO 
+PEDRO', 'HERNANDEZ 
+FAVELA ROBERTO', 
+'HERNANDEZ LICANO JOSE 
+LUIS', 'MARTINEZ 
+RAMIREZ ROSALIO', 
+'MACHADO MAZUCA 
+ADOLFO', 'MELENDEZ 
+SINALOA MANUEL ARAT', 
+'MERCADO LOPEZ JESUS', 
+'MONTERO BURROLA LUIS', 
+'MORALES LOPEZ DE LARA 
+MARIANO', 'NU╤EZ RUIZ 
+IRVING JAVIER.', 
+'ONTIVEROS LIRA JUAN', 
+'ORONA BECERRA MAURO 
+JOSE', 'ORTIZ RAMIREZ 
+HECTOR MANUEL', 
+'RAMIREZ BAUTISTA 
+ADRIAN', 'REYES LARA 
+DANTE', 'RODRIGUEZ 
+FLORES BRYAN DARIO', 
+'RUIZ SAUCEDO DANIEL 
+ALEJANDRO', 'LIRA ARCEO 
+JOEL EDUARDO', 'VALLES 
+HERNANDEZ MANUEL 
+MARCELI', 'KM POR 
+CHOFER', 'KM POR 
+UNIDAD', 'KM POR 
+CLIENTE', 
+'KILOMETRAJE', 
+'UNIDADES', 'FORMULAS']
+  
+  Sheet: NOMINA
+    Unnamed: 0          
+                  
+FLETES SOTELO S.A. DE 
+C.V.                    
+      Unnamed: 2       
+Unnamed: 3      
+Unnamed: 4  Unnamed: 5  
+Unnamed: 6  Unnamed: 7  
+Unnamed: 8  Unnamed: 9  
+Unnamed: 10   Unnamed: 
+11
+  0        NaN          
+          VIAJES 
+FORANEOS JUAREZ - 
+CHIHUAHUA               
+                  NaN   
+           NaN          
+   NaN         NaN      
+   NaN         NaN      
+   NaN         NaN      
+    NaN           NaN
+  1        NaN  SEMANA 
+#41 PERIODO DEL 29 AL 
+05 DE OCTUBRE  DEL 2025 
+                        
+        NaN             
+ NaN             NaN    
+     NaN         NaN    
+     NaN         NaN    
+     NaN          NaN   
+        NaN
+  2        NaN          
+                        
+                 NaN    
+                        
+EMPLEADO  VIAJES 
+FORANEOS  NO. DE 
+REPORTE         NaN     
+    NaN         NaN     
+    NaN         NaN     
+     NaN  RENDIMIENTO 
+  3        NaN          
+                        
+                0001    
+         AGUILAR 
+ESQUIVEL CARLOS     
+12352.050635           
+45876     45898.0     
+46311.0     46349.0     
+46348.0         0.0     
+     0.0           NaN
+  4        NaN          
+                        
+                1332    
+  AGUILAR RODRIGUEZ 
+JORGE ALONSO      
+8064.013357           
+45775     45798.0     
+45821.0     45828.0     
+    0.0         0.0     
+     0.0           NaN
+  5        NaN          
+                        
+                2067    
+ AGUILERA CONTRERAS 
+LUIS GERARDO      
+6349.950467           
+46301     46319.0     
+46338.0     46359.0     
+    0.0         0.0     
+     NaN           NaN
+  6        NaN          
+                        
+                0007    
+         BALDERRAMA 
+ROBLES JORGE            
+  NaN               0   
+      0.0         0.0   
+      0.0         0.0   
+      0.0          NaN  
+         NaN
+  7        NaN          
+                        
+                0028    
+      BALLEZA RAMIREZ 
+JESUS JOSE     
+13969.712572           
+45887     46308.0     
+46330.0     46336.0     
+46378.0         0.0     
+     NaN           NaN
+  8        NaN          
+                        
+                0029    
+         BURGOS TORRES 
+RIGOBERTO      
+9359.121997           
+46309     46367.0       
+  0.0         0.0       
+  0.0         0.0       
+   0.0           NaN
+  9        NaN          
+                        
+                2550  
+CARDENAS CARDENAS 
+JAVIER ALEJANDRO        
+      NaN               
+0         0.0         
+0.0         0.0         
+0.0         0.0         
+ 0.0           NaN
+  Columns: ['Unnamed: 
+0', 'FLETES SOTELO S.A. 
+DE C.V.', 'Unnamed: 2', 
+'Unnamed: 3', 'Unnamed: 
+4', 'Unnamed: 5', 
+'Unnamed: 6', 'Unnamed: 
+7', 'Unnamed: 8', 
+'Unnamed: 9', 'Unnamed: 
+10', 'Unnamed: 11']
+  
+  === GENESIS ===
+  Sheet names: 
+['Worksheet']
+  
+  Sheet: Worksheet
+        Factura Estatus 
+flete  Coordenada       
+Cliente                 
+  Usuario    Estatus    
+          Guφa de carga 
+                        
+                     
+Origen                  
+    Destino    Tipo     
+                        
+                        
+                        
+                        
+     Comentarios        
+                  
+Conductor Tractor  
+Remolque      Boleta    
+        Arranque       
+Arribo origen       
+Salida origen Arribo 
+preinspecci≤n Salida 
+preinspecci≤n Cruce 
+Arribo aduana MEX 
+Salida aduana MEX 
+Arribo aduana EUA 
+Salida aduana EUA      
+Arribo destino Receptor 
+Autorizaci≤n            
+      Sucursal cobro 
+Rojo
+  0  B - 363050     
+Facturado   2878897-3  
+GRUPO YAZAKI  FERNANDO 
+PANDO HERNANDEZ  
+FACTURADO     yazaki 
+FSM53951 311025         
+                YAZAKI 
+COMPONENTES PLANTA 3    
+            FLETES 
+SOTELO  EXP-02          
+                        
+                        
+                        
+                        
+        NaN  VALLES 
+HERNANDEZ MANUEL 
+MARCELINO   F-030  
+FSM53921       46163 
+2025-10-31 23:53:51 
+2025-10-31 23:53:41 
+2025-10-31 23:53:51     
+             NaT        
+          NaT   NaN     
+          NaT           
+    NaT               
+NaT               NaT 
+2025-11-01 06:43:23     
+ NaN          NaN       
+       YAZAKI 
+COMPONENTES  NaN
+  1  B - 363061     
+Facturado   2879083-3   
+     SAFRAN  FERNANDO 
+PANDO HERNANDEZ  
+FACTURADO           
+BS35111 10312025  
+SAFRAN PLANTA 1 /EMX/ 
+EVACUATION SY (AIR 
+CRUSIERS)        BASE 
+SOTELO CHIHUAHUA  
+MDC-01                  
+                        
+                        
+                        
+                        
+NaN      ESTRADA 
+RAMIREZ RUBEN ARMANDO   
+L-021   BS35111      
+151141 2025-10-31 
+23:50:00 2025-10-31 
+22:50:00 2025-10-31 
+23:50:00                
+  NaT                  
+NaT   NaN               
+NaT               NaT   
+            NaT         
+      NaT 2025-11-01 
+00:05:00      NaN       
+   NaN  EMX /EVACUATION 
+SYSTEMS M╔XICO  NaN
+  2  B - 363050     
+Facturado   2878897-2  
+GRUPO YAZAKI  FERNANDO 
+PANDO HERNANDEZ  
+FACTURADO     yazaki 
+FSM53951 311025         
+                      
+BASE SOTELO CHIHUAHUA  
+YAZAKI COMPONENTES 
+PLANTA 3  PTT-00        
+                        
+                        
+                        
+                        
+          NaN  VALLES 
+HERNANDEZ MANUEL 
+MARCELINO   F-030       
+NaN       46163 
+2025-10-31 23:46:07     
+            NaT 
+2025-10-31 23:46:07     
+             NaT        
+          NaT   NaN     
+          NaT           
+    NaT               
+NaT               NaT 
+2025-10-31 23:53:41     
+ NaN          NaN       
+       YAZAKI 
+COMPONENTES  NaN
+  3  B - 363049     
+Facturado   2879106-2   
+      APTIV          
+Roberto Arellano  
+FACTURADO               
+   532690530            
+                    
+APTIV GUAMUCHIL FV52    
+            FLETES 
+SOTELO  EXP-02          
+                        
+                        
+          2025-11-01 
+01:05:07 
+roberto.arrella 
+SELLO:1547748         
+HARO IMPERIAL JOS╔ 
+ANTONIO   F-114  
+FSM53033  TEXEX52V03 
+2025-10-31 23:45:00 
+2025-10-31 16:20:00 
+2025-10-31 23:45:00     
+             NaT        
+          NaT   NaN     
+          NaT           
+    NaT               
+NaT               NaT 
+2025-11-02 12:44:14     
+ NaN          NaN       
+           APTIV 
+SERVICES  NaN
+  4  B - 362400     
+Facturado   2878502-6   
+      APTIV  FERNANDO 
+PANDO HERNANDEZ  
+CANCELADO  MOCHIS 
+532690406 FSM53033      
+                        
+         FLETES SOTELO  
+          APTIV MOCHIS 
+FV59  PTT-00  
+2025-11-01 10:55:22 
+odilon.alvidrez 
+.\n2025-11-01 10:55:31 
+odilon.alvidrez 
+.\n2025-11-01 10:55:41 
+odilon.alvidrez .       
+                        
+ NaN     NaN       NaN  
+       NaN 2025-10-31 
+23:43:00                
+ NaT 2025-10-31 
+23:43:00                
+  NaT                  
+NaT   NaN               
+NaT               NaT   
+            NaT         
+      NaT 2025-10-31 
+07:46:00      NaN       
+   NaN                  
+  APTIV MOCHIS  NaN
+  5  B - 363041     
+Facturado   2879144-2  
+GRUPO YAZAKI           
+Rodrigo Galaviz  
+FACTURADO               
+  6100289837            
+                        
+   GYSA JUAREZ 3        
+            GYSA  CDJ  
+LOC-02                  
+                        
+                        
+        2025-11-06 
+12:55:42 e.valenzuela 
+6100289837       
+CARRILLO ESPARZA CARLOS 
+ABEL   L-116   BS35031  
+       NaN 2025-10-31 
+23:38:46 2025-10-31 
+23:21:06 2025-10-31 
+23:38:46                
+  NaT                  
+NaT   NaN               
+NaT               NaT   
+            NaT         
+      NaT 2025-11-01 
+00:18:01      NaN       
+   NaN                  
+    JUAREZ CDJ  NaN
+  6  B - 362927     
+Facturado   2878837-3  
+GRUPO YAZAKI            
+  Luis Camacho  
+FACTURADO               
+  6100291150            
+                        
+   GYSA JUAREZ 1        
+        FLETES SOTELO  
+PTT-00                  
+                        
+                        
+                        
+                        
+NaN        TORRES 
+MONTOYA OSCAR JAVIER   
+LN-11       NaN         
+NaN 2025-10-31 23:37:07 
+2025-10-31 22:55:00 
+2025-10-31 23:37:07     
+             NaT        
+          NaT   NaN     
+          NaT           
+    NaT               
+NaT               NaT 
+2025-10-31 23:55:36     
+ NaN          NaN       
+                 JUAREZ 
+1  NaN
+  7  B - 363158     
+Facturado   2879149-1  
+GRUPO YAZAKI          
+Roberto Arellano  
+FACTURADO               
+  6100291388            
+                        
+  GYSA OBREGON 1        
+ YARDA SOTELO OBREGON  
+MDC-01                  
+                        
+                        
+                        
+                        
+NaN    GASTELUM 
+CARDENAS JESUS ANTONIO  
+ LN-01  FSM53946        
+ NaN 2025-10-31 
+23:34:59 2025-10-31 
+23:31:31 2025-10-31 
+23:34:59                
+  NaT                  
+NaT   NaN               
+NaT               NaT   
+            NaT         
+      NaT 2025-10-31 
+23:44:39      NaN       
+   NaN                  
+       OBREGON  NaN
+  8  B - 363155     
+Facturado   2879063-3  
+GRUPO YAZAKI            
+  Luis Camacho  
+FACTURADO               
+  6100290717            
+                        
+   FLETES SOTELO        
+ YARDA SOTELO OBREGON  
+IMP-02                  
+   2025-11-06 15:40:17 
+e.valenzuela 
+6100290717\n2025-11-07 
+16:58:16 lina.viviana 
+5113  CR  TRUCKING      
+        JUAREZ FRANCO 
+ROBERTO    0619  
+FSM53980         NaN 
+2025-10-31 23:32:00     
+            NaT 
+2025-10-31 23:32:00     
+             NaT        
+          NaT   NaN     
+          NaT           
+    NaT               
+NaT               NaT 
+2025-11-02 22:56:00     
+ NaN          NaN       
+                  
+OBREGON  NaN
+  9         NaN      
+Completo  2878055-32  
+GRUPO YAZAKI            
+ Cesar Barajas    
+CERRADO                 
+6100288629              
+                        
+ GYSA JUAREZ 3          
+    GYSA JDC TORRES  
+MDC-01                  
+                        
+                        
+                        
+                        
+NaN              
+RAMIREZ SOLIS EDUARDO   
+L-008       NaN         
+NaN 2025-10-31 23:18:00 
+2025-10-31 22:45:00 
+2025-10-31 23:18:00     
+             NaT        
+          NaT   NaN     
+          NaT           
+    NaT               
+NaT               NaT 
+2025-10-31 23:38:09     
+ NaN          NaN       
+               JUAREZ 
+JDC  NaN
+  Columns: ['Factura', 
+'Estatus flete', 
+'Coordenada', 
+'Cliente', 'Usuario', 
+'Estatus', 'Guφa de 
+carga', 'Origen', 
+'Destino', 'Tipo', 
+'Comentarios', 
+'Conductor', 'Tractor', 
+'Remolque', 'Boleta', 
+'Arranque', 'Arribo 
+origen', 'Salida 
+origen', 'Arribo 
+preinspecci≤n', 'Salida 
+preinspecci≤n', 
+'Cruce', 'Arribo aduana 
+MEX', 'Salida aduana 
+MEX', 'Arribo aduana 
+EUA', 'Salida aduana 
+EUA', 'Arribo destino', 
+'Receptor', 
+'Autorizaci≤n', 
+'Sucursal cobro', 
+'Rojo']
+
+
